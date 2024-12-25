@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white">
+
+    <header class="header">
+
+
+        <div class="navigation container mx-auto max-w-[1200px]">
+
+            <nav class="nav mt-4 flex items-center justify-between ">
+
+                <div class="nav-block-logo">
+                    <div class="logo">
+                        <a href=""><img class="" src="./img/mylogovers2.png" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="nav-block-text">
+                    <ul class="nav-block-text-ul_elements flex space-x-4"> 
+                        <li><a class="p-2 hover:text-[#1E0380] transition-colors" href="">Услуги</a></li>
+                        <li><a class="p-2 hover:text-[#1E0380] transition-colors" href="">Проекты</a></li>
+                        <li><a class="p-2 hover:text-[#1E0380] transition-colors" href="">Продукты</a></li>
+                        <li><a class="p-2 hover:text-[#1E0380] transition-colors" href="">Технологии</a></li>
+                        <li><a class="p-2 hover:text-[#1E0380] transition-colors" href="">Контакты</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+
+            
+        <div class="hamburger-menu ml-5">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+            <ul class="menu__box text-center">
+                    <li><a class="menu__item" href="#">Главная</a></li>
+                    <li><a class="menu__item" href="#">Проекты</a></li>
+                    <li><a class="menu__item" href="#">Команда</a></li>
+                    <li><a class="menu__item" href="#">Блог</a></li>
+                    <li><a class="menu__item" href="#">Контакты</a></li>
+                    <li><a href=""><img class="pl-5" src="./img/mylogo.svg" alt=""></a></li>
+            </ul>
+          </div>
+
+        </div>
+
+    </header>
+
+    <main>
+        <section class="mt-10">
+
+            <div class="container mx-auto max-w-[1200px] flex justify-center">
+
+                <div class="banner-container">
+
+                    <div class="banner-block">
+                        <div class="banner flex justify-between p-5 rounded-lg shadow-md items-center">
+                            <a href=""><img src="./img/mylogovers2.png" alt="Company Logo" class="logo"></a>
+                            <h2 class="text-sm w-[400px] ml-3 banner-h2">
+                                Наша компания официально включена в реестр хостинг-провайдеров России.
+                            </h2>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="mt-10 container mx-auto max-w-[1200px]">
+            
+            <div class="about">
+                <div class="about-title">
+                    <h1 class="about-title__h1 font-bold text-3xl text-center">Почему именно мы?</h1>
+                </div>
+
+                <div class="about-text mt-5 flex items-center justify-center">
+                    <p class="about-text__p text-center text-xl w-[50%]">
+                        Мы работаем с <span class="font-bold text-[#1E0380] text-xl">2005</span> года! У нас богатый опыт в разработке сайтов на любой вкус!
+                        Наш выбор лежит на проверенных технологиях такие как: <span class="font-bold text-[#1E0380] text-xl"><a href="https://laravel.com/">LARAVEL</a></span> и <span class="font-bold text-[#1E0380] text-xl"><a href="https://vuejs.org/">VUE.JS</a></span> с использованием <span class="font-bold text-[#1E0380] text-xl"><a href="https://tailwindcss.com/">CSS ФРЕЙВОРКА TAILWIND</a></span>
+                    </p>
+                </div>
+
+                <div class="about-photos flex justify-between mt-5">
+                    <a href="https://laravel.com/"><img src="./img/laravel.png" alt=""></a>
+                    <a href="https://vuejs.org/"><img src="./img/vue.png" alt=""></a>
+                    <a href="https://tailwindcss.com/"><img src="./img/tailwind.png" alt=""></a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="mt-10 container mx-auto max-w-[1200px]">
+
+            <div class="activity">
+                <div class="activity-title">
+                    <h2 class="activity-title__h2 text-center font-bold text-3xl">Наши работы</h2>
+                </div>
+
+                <div class="activity-store mt-6">
+                    <div class="activity-store-title">
+                        <h2 class="activity-store-title__h2 font-bold text-xl">Интернет-магазины</h2>
+                    </div>
+
+                    <div class="activity-store-catalog grid grid-cols-4 text-center">
+                        <div class="activity-store-catalog-first mt-4 flex flex-col space-y-2">
+                            <a class="text-[#1E0380]" href="https://archiland.biz/">archiland.biz</a>
+                            <a class="text-[#1E0380]" href="https://magicfire.ru/">magicfire.ru</a>
+                            <a class="text-[#1E0380]" href="https://uvelpak.ru/">uvelpak.ru</a>
+                            <a class="text-[#1E0380]" href="https://внешгидромаш.рф/">внешгидромаш.рф</a>
+                            <a class="text-[#1E0380]" href="https://optoves.ru/">optoves.ru</a>
+                        </div>
+
+                        <div class="activity-store-catalog-first mt-4 flex flex-col space-y-2">
+                            <a class="text-[#1E0380]" href="https://sushi-karate.ru/">sushi-karate.ru</a>
+                            <a class="text-[#1E0380]" href="https://prof-poligraf.ru/">prof-poligraf.ru</a>
+                            <a class="text-[#1E0380]" href="https://magnitola52.ru/">magnitola52.ru</a>
+                            <a class="text-[#1E0380]" href="https://onlinepizza.ru/">onlinepizza.ru</a>
+                            <a class="text-[#1E0380]" href="https://volgalin.ru/">volgalin.ru</a>
+                        </div>
+
+                        <div class="activity-store-catalog-first mt-4 flex flex-col space-y-2">
+                            <a class="text-[#1E0380]" href="https://pirog52.ru/">pirog52.ru</a>
+                            <a class="text-[#1E0380]" href="https://япошик.рф/">япошик.рф</a>
+                            <a class="text-[#1E0380]" href="http://www.sushi-online.ru/">sushi-online.ru</a>
+                            <a class="text-[#1E0380]" href="https://onlinepizza.ru/">buildingauto.ru</a>
+                            <a class="text-[#1E0380]" href="https://crazy-handmade.com/">crazy-handmade.com</a>
+                        </div>
+
+                        <div class="activity-store-catalog-first mt-4 flex flex-col space-y-2">
+                            <a class="text-[#1E0380]" href="https://sensum.love/">sensum.love</a>
+                            <a class="text-[#1E0380]" href="https://solyanka-shop.ru/">solyanka-shop.ru</a>
+                            <a class="text-[#1E0380]" href="https://elconnect.ru/">elconnect.ru</a>
+                            <a class="text-[#1E0380]" href="https://vesmaster.ru/">vesmaster.ru</a>
+                            <a class="text-[#1E0380]" href="https://volgara.ru/">volgara.ru</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-store mt-6">
+
+                    <div class="activity-store-title">
+                        <h2 class="activity-store-title__h2 font-bold text-xl">
+                            СМИ и порталы
+                        </h2>
+                    </div>
+
+                    <div class="activity-store-catalog grid grid-cols-4 text-center">
+                        
+                        <div class="activity-store-catalog-first mt-4 flex flex-col space-y-2">
+                            <a class="text-[#1E0380]" href="https://sportliga.com/">sportliga.com</a>
+                            <a class="text-[#1E0380]" href="https://www.volgahimplast.ru/">volgahimplast.ru</a>
+                        </div>
+
+                        <div class="activity-store-catalog-first mt-4 flex flex-col space-y-2">
+                            <a class="text-[#1E0380]" href="https://liga-press.ru/">liga-press.ru</a>
+                            <a class="text-[#1E0380]" href="https://www.s-b-s.su/">s-b-s.su</a>
+                        </div>
+
+                        <div class="activity-store-catalog-first mt-4 flex flex-col space-y-2">
+                            <a class="text-[#1E0380]" href="https://bg52.ru/">bg52.ru</a>
+                            <a class="text-[#1E0380]" href="https://yamal-obr.ru/">yamal-obr.ru</a>
+                        </div>
+
+                        <div class="activity-store-catalog-first mt-4 flex flex-col space-y-2">
+                            <a class="text-[#1E0380]" href="https://gorko.nnov.ru/">gorko.nnov.ru</a>
+                            <a class="text-[#1E0380]" href="https://glonass-global.ru/">glonass-global.ru</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="activity-store mt-6">
+
+                    <div class="activity-store-title">
+                        <h2 class="activity-store-title__h2 font-bold text-xl">
+                            Корпоративные сайты
+                        </h2>
+                    </div>
+
+                    <div class="activity-store-catalog grid grid-cols-4 text-center">
+                        
+                        <div class="activity-store-catalog-first mt-4 flex flex-col space-y-2">
+                            <a class="text-[#1E0380]" href="https://reduktor.nnov.ru/">reduktor.nnov.ru</a>
+                            <a class="text-[#1E0380]" href="https://tran-service.ru/">tran-service.ru</a>
+                            <a class="text-[#1E0380]" href="https://volga-dance.ru/">volga-dance.ru</a>
+                            <a class="text-[#1E0380]" href="https://voznichiy.ru/">voznichiy.ru</a>
+                            <a class="text-[#1E0380]" href="https://kroshka-asphalt.ru/">kroshka-asphalt.ru</a>
+                            <a class="text-[#1E0380]" href="https://ground-com.ru/">ground-com.ru</a>
+                            <a class="text-[#1E0380]" href="https://avto-treid.ru/">avto-treid.ru</a>
+                            <a class="text-[#1E0380]" href="https://namt-boxing.ru/">namt-boxing.ru</a>
+                            <a class="text-[#1E0380]" href="https://ap152.ru/">ap152.ru</a>
+                            <a class="text-[#1E0380]" href="https://liga-plus.ru/">liga-plus.ru</a>
+                            <a class="text-[#1E0380]" href="http://www.kosinski.ru/">kosinski.ru</a>
+                            <a class="text-[#1E0380]" href="https://www.altera-group.ru/">altera-group.ru</a>
+                            <a class="text-[#1E0380]" href="https://туры-на-черное-море.рф/">туры-на-черное-море.рф</a>
+                            <a class="text-[#1E0380]" href="https://metiznn.ru/">metiznn.ru</a>
+                        </div>
+
+                        <div class="activity-store-catalog-first mt-4 flex flex-col space-y-2">
+                            <a class="text-[#1E0380]" href="https://tems.ru/">tems.ru</a>
+                            <a class="text-[#1E0380]" href="https://neva-trailer.ru/">neva-trailer.ru</a>
+                            <a class="text-[#1E0380]" href="https://jayclub.ru/">jayclub.ru</a>
+                            <a class="text-[#1E0380]" href="https://gfi-no.ru/">gfi-no.ru</a>
+                            <a class="text-[#1E0380]" href="https://мпк-мясник.рф/">мпк-мясник.рф</a>
+                            <a class="text-[#1E0380]" href="https://veteran-no.ru/">veteran-no.ru</a>
+                            <a class="text-[#1E0380]" href="https://moigorod-nn.ru/">moigorod-nn.ru</a>
+                            <a class="text-[#1E0380]" href="https://mama-nn.ru/">mama-nn.ru</a>
+                            <a class="text-[#1E0380]" href="https://dvorecnn.ru/">dvorecnn.ru</a>
+                            <a class="text-[#1E0380]" href="https://ormebel.ru/">ormebel.ru</a>
+                            <a class="text-[#1E0380]" href="https://sevtushino.ru/">sevtushino.ru</a>
+                            <a class="text-[#1E0380]" href="https://voek-expert.ru/">voek-expert.ru</a>
+                            <a class="text-[#1E0380]" href="https://arkada52.ru/">arkada52.ru</a>
+                            <a class="text-[#1E0380]" href="https://complink.ru/">complink.ru</a>
+                        </div>
+
+                        <div class="activity-store-catalog-first mt-4 flex flex-col space-y-2">
+                            <a class="text-[#1E0380]" href="https://mgulab.com/">mgulab.com</a>
+                            <a class="text-[#1E0380]" href="https://vot-nn.ru/">vot-nn.ru</a>
+                            <a class="text-[#1E0380]" href="https://master-optica.ru/">master-optica.ru</a>
+                            <a class="text-[#1E0380]" href="https://an-akkord.ru/">an-akkord.ru</a>
+                            <a class="text-[#1E0380]" href="https://phmi.ru/">phmi.ru</a>
+                            <a class="text-[#1E0380]" href="https://wtcnn.ru/">wtcnn.ru</a>
+                            <a class="text-[#1E0380]" href="https://счетчик-электроэнергии.рф/">счетчик-электроэнергии.рф</a>
+                            <a class="text-[#1E0380]" href="https://zao-instrument.ru/">zao-instrument.ru</a>
+                            <a class="text-[#1E0380]" href="https://флотореагент.рф/">флотореагент.рф</a>
+                            <a class="text-[#1E0380]" href="https://travers.ru/">travers.ru</a>
+                            <a class="text-[#1E0380]" href="https://gorod-masteroff.ru/">gorod-masteroff.ru</a>
+                            <a class="text-[#1E0380]" href="https://best-generator.ru/">best-generator.ru</a>
+                            <a class="text-[#1E0380]" href="https://piligrim.nnov.ru/">piligrim.nnov.ru</a>
+                            <a class="text-[#1E0380]" href="https://ritual52.ru/">ritual52.ru</a>
+                        </div>
+
+                        <div class="activity-store-catalog-first mt-4 flex flex-col space-y-2">
+                            <a class="text-[#1E0380]" href="https://old.autorentaservice.ru/">autorentaservice.ru</a>
+                            <a class="text-[#1E0380]" href="https://himopt-nn.ru/">himopt-nn.ru</a>
+                            <a class="text-[#1E0380]" href="https://r-electric.ru/">r-electric.ru</a>
+                            <a class="text-[#1E0380]" href="https://www.bumerang.nnov.ru/">bumerang.nnov.ru</a>
+                            <a class="text-[#1E0380]" href="https://imafia2.ru/">imafia2.ru</a>
+                            <a class="text-[#1E0380]" href="https://vkusleta.ru/">vkusleta.ru</a>
+                            <a class="text-[#1E0380]" href="https://ремонт-фургонов.рф/">ремонт-фургонов.рф</a>
+                            <a class="text-[#1E0380]" href="https://motor-reduktor-nmrv.ru/">motor-reduktor-nmrv.ru</a>
+                            <a class="text-[#1E0380]" href="https://allure-dance.ru/">allure-dance.ru</a>
+                            <a class="text-[#1E0380]" href="http://www.protex-carter.ru/">protex-carter.ru</a>
+                            <a class="text-[#1E0380]" href="https://npn-rostov.ru/">npn-rostov.ru</a>
+                            <a class="text-[#1E0380]" href="https://hctorpedo2004.ru/">hctorpedo2004.ru</a>
+                            <a class="text-[#1E0380]" href="https://ricombumaga.ru/">ricombumaga.ru</a>
+                            <a class="text-[#1E0380]" href="https://www.stirka52.ru/">stirka52.ru</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                
+            </div>
+
+        </section>
+
+        <section class="container mx-auto max-w-[1200px] mt-10">
+
+            <div class="archive">
+                <div class="activity-title">
+                    <h2 class="activity-title__h2 text-center font-bold text-3xl">Наш архив</h2>
+                </div>
+ 
+                <div class="archive-store mt-6">
+
+                    <div class="activity-store-catalog grid grid-cols-4 text-center">
+                        <div class="activity-store-catalog-first mt-4 flex flex-col space-y-2">
+                            <p class="text-[#1E0380]">rostplast-nn.ru</p>      
+                            <p class="text-[#1E0380]">двери-дома.рф</p>
+                            <p class="text-[#1E0380]">jadever.ru</p>
+                            <p class="text-[#1E0380]">pdr52.ru</p>
+                            <p class="text-[#1E0380]">csr.hosting</p>
+                            <p class="text-[#1E0380]">puf-puf.ru</p>      
+                            <p class="text-[#1E0380]">gd52.ru</p>
+                            <p class="text-[#1E0380]">dolina-nn.ru</p>
+                            <p class="text-[#1E0380]">olgerd.nnov.ru</p>
+                            <p class="text-[#1E0380]">thetopclub.ru</p>
+                            <p class="text-[#1E0380]">riton.nnov.ru</p>      
+                            <p class="text-[#1E0380]">papachen.ru</p>
+                            <p class="text-[#1E0380]">intersavto.ru</p>
+                            <p class="text-[#1E0380]">volodarsk.ru</p>
+                            <p class="text-[#1E0380]">interno-club.ru</p>
+                            <p class="text-[#1E0380]">mmk.nnov.ru</p>      
+                            <p class="text-[#1E0380]">citus.ru</p>
+                            <p class="text-[#1E0380]">home-nn.ru</p>
+                            <p class="text-[#1E0380]">marpravda.ru</p>
+                            <p class="text-[#1E0380]">kosinsky.ru</p>
+                            <p class="text-[#1E0380]">toledo-nn.com</p>      
+                            <p class="text-[#1E0380]">salonperfection.ru</p>
+                            <p class="text-[#1E0380]">paydjinn.com</p>
+                            <p class="text-[#1E0380]">pavlovoptica.ru</p>
+                            <p class="text-[#1E0380]">gu.nnov.ru</p>
+                            <p class="text-[#1E0380]">bspd.ru</p>
+                        </div>
+
+                        <div class="activity-store-catalog-first mt-4 flex flex-col space-y-2">
+                            <p class="text-[#1E0380]">rskit.ru</p>      
+                            <p class="text-[#1E0380]">smf-nn.ru</p>
+                            <p class="text-[#1E0380]">jadever.su</p>
+                            <p class="text-[#1E0380]">info-mit.ru</p>
+                            <p class="text-[#1E0380]">inki-nn.ru</p>
+                            <p class="text-[#1E0380]">amp-groups.com</p>      
+                            <p class="text-[#1E0380]">lanos-nn.ru</p>
+                            <p class="text-[#1E0380]">bulat.nnov.ru</p>
+                            <p class="text-[#1E0380]">kedro-slav.ru</p>
+                            <p class="text-[#1E0380]">home-nn.ru</p>
+                            <p class="text-[#1E0380]">вера-строй.рф</p>      
+                            <p class="text-[#1E0380]">vlk-nn.ru</p>
+                            <p class="text-[#1E0380]">cherdak-nn.ru</p>
+                            <p class="text-[#1E0380]">romek.org</p>
+                            <p class="text-[#1E0380]">nktnn.ru</p>
+                            <p class="text-[#1E0380]">bo-nn.ru</p>      
+                            <p class="text-[#1E0380]">nnews.nnov.ru</p>
+                            <p class="text-[#1E0380]">mixturabar.ru</p>
+                            <p class="text-[#1E0380]">ricom-nn.ru</p>
+                            <p class="text-[#1E0380]">time-id.ru</p>
+                            <p class="text-[#1E0380]">expert-souz.ru</p>      
+                            <p class="text-[#1E0380]">spaperfection.ru</p>
+                            <p class="text-[#1E0380]">svs52.ru</p>
+                            <p class="text-[#1E0380]">avtomagazin1.ru</p>
+                            <p class="text-[#1E0380]">bumsnab.ru</p>
+                            <p class="text-[#1E0380]">nil-s.ru</p>
+                        </div>
+
+                        <div class="activity-store-catalog-first mt-4 flex flex-col space-y-2">
+                            <p class="text-[#1E0380]">sormovo-hleb.ru</p>      
+                            <p class="text-[#1E0380]">medovik52.ru</p>
+                            <p class="text-[#1E0380]">vesmaster.com</p>
+                            <p class="text-[#1E0380]">ct-travel.ru</p>
+                            <p class="text-[#1E0380]">nss52.ru</p>
+                            <p class="text-[#1E0380]">adss-medical.ru</p>      
+                            <p class="text-[#1E0380]">tdpv.ru</p>
+                            <p class="text-[#1E0380]">dizotash.ru</p>
+                            <p class="text-[#1E0380]">kedro-korm.ru</p>
+                            <p class="text-[#1E0380]">nefertiti-yacht.ru</p>
+                            <p class="text-[#1E0380]">fedoseeva-nn.ru</p>      
+                            <p class="text-[#1E0380]">upandup.ru</p>
+                            <p class="text-[#1E0380]">antikarst.ru</p>
+                            <p class="text-[#1E0380]">zhirov.nnov.ru</p>
+                            <p class="text-[#1E0380]">g-arte.ru</p>
+                            <p class="text-[#1E0380]">cpp.nnov.ru</p>      
+                            <p class="text-[#1E0380]">okotech.com</p>
+                            <p class="text-[#1E0380]">pro-fabric.ru</p>
+                            <p class="text-[#1E0380]">yasen-nn.ru</p>
+                            <p class="text-[#1E0380]">tmm.nnov.ru</p>
+                            <p class="text-[#1E0380]">avtocenter-nn.ru</p>      
+                            <p class="text-[#1E0380]">climatustanovka.ru</p>
+                            <p class="text-[#1E0380]">tmk52.ru</p>
+                            <p class="text-[#1E0380]">romasannicola.org</p>
+                            <p class="text-[#1E0380]">detmebel52.ru</p>
+                            <p class="text-[#1E0380]">etkalmi.ru</p>
+                        </div>
+
+                        <div class="activity-store-catalog-first mt-4 flex flex-col space-y-2">
+                            <p class="text-[#1E0380]">supern.ru</p>      
+                            <p class="text-[#1E0380]">pbc.nnov.ru</p>
+                            <p class="text-[#1E0380]">protex-carter.ru</p>
+                            <p class="text-[#1E0380]">finex-consulting.ru</p>
+                            <p class="text-[#1E0380]">a-steh.ru</p>
+                            <p class="text-[#1E0380]">quadra-kkt.ru</p>      
+                            <p class="text-[#1E0380]">termal.biz</p>
+                            <p class="text-[#1E0380]">gani.ru</p>
+                            <p class="text-[#1E0380]">spectehnika-nn.ru</p>
+                            <p class="text-[#1E0380]">tradelink.ru</p>
+                            <p class="text-[#1E0380]">sushimin.ru</p>      
+                            <p class="text-[#1E0380]">must.su</p>
+                            <p class="text-[#1E0380]">genesisnn.ru</p>
+                            <p class="text-[#1E0380]">floor-master.ru</p>
+                            <p class="text-[#1E0380]">domcomp.ru</p>
+                            <p class="text-[#1E0380]">lealta.ru</p>      
+                            <p class="text-[#1E0380]">ptrans52.ru</p>
+                            <p class="text-[#1E0380]">ny-pizza.ru</p>
+                            <p class="text-[#1E0380]">tektonica.ru</p>
+                            <p class="text-[#1E0380]">amznn.ru</p>
+                            <p class="text-[#1E0380]">spa-loren.ru</p>      
+                            <p class="text-[#1E0380]">e-xpress.ru</p>
+                            <p class="text-[#1E0380]">hibachifood.ru</p>
+                            <p class="text-[#1E0380]">beton52.ru</p>
+                            <p class="text-[#1E0380]">elit-mebel.ru</p>
+                            <p class="text-[#1E0380]">sklyarov.ru</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="container mx-auto max-w-[1200px] mt-10">
+
+            <div class="project">
+                <div class="activity-title">
+                    <h2 class="activity-title__h2 text-center font-bold text-3xl">Наши проекты</h2>
+                </div>
+
+                <div class="project-elements mt-6">
+                    <div class="project-elements-title">
+                        <h2 class="activity-store-title__h2 font-bold text-xl">
+                            <a href="https://gorko.nnov.ru/" class="text-[#1E0380]">Нижегородский свадебный портал Горько!</a>
+                        </h2>
+                    </div>
+
+                    <div class="project-elements-text mt-3">
+                        <p>Подробная иллюстрированная информация для подготовки и проведения свадьбы, сценарии выкупа невесты, тосты, поздравления и пожелания молодым, каталог товаров и услуг для свадьбы, бесплатные объявления, форум. Сделайте свадьбу незабываемым праздником!</p>
+                    </div>
+                </div>
+
+                <div class="project-elements mt-6">
+                    <div class="project-elements-title">
+                        <h2 class="activity-store-title__h2 font-bold text-xl">
+                            <a href="https://gorko.nnov.ru/" class="text-[#1E0380]">Портал о нефтехимической отрасли ВолгаХимПласт</a>
+                        </h2>
+                    </div>
+
+                    <div class="project-elements-text mt-3">
+                        <p>Новости, аналитические статьи и экспертные мнения о последних тенденциях в нефтехимии и производстве полимеров, технические данные, рыночные отчеты и события отрасли</p>
+                    </div>
+                </div>
+
+                <div class="project-elements mt-6">
+                    <div class="project-elements-title">
+                        <h2 class="activity-store-title__h2 font-bold text-xl">
+                            <a href="https://gorko.nnov.ru/" class="text-[#1E0380]">Портал о спутниковой навигации и мониторинге Глонасс Глобал</a>
+                        </h2>
+                    </div>
+
+                    <div class="project-elements-text mt-3">
+                        <p>Актуальная и подробная информация о спутниковых навигационных системах и технологиях мониторинга. Статьи, новости, инструкции и руководства, термины, каталог компаний.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="container mx-auto max-w-[1200px] mt-10">
+
+            <div class="product">
+                <div class="activity-title">
+                    <h2 class="activity-title__h2 text-center font-bold text-3xl">Наши продукты</h2>
+                </div>
+
+                <div class="product-elements mt-6">
+                    <div class="product-elements-title">
+                        <h2 class="activity-store-title__h2 font-bold text-xl">
+                            <a href="https://gorko.nnov.ru/" class="text-[#1E0380]">SiteSet</a>
+                        </h2>
+                    </div>
+
+                    <div class="product-elements-text mt-3">
+                        <span class="font-bold">Система управления сайтами СайтСет</span> - легкая в управлении, идеальная для продвижения сайтов (SEO).
+                    </div>
+
+                    <div class="product-elements-text mt-3">
+                        <p>Позволяет создавать сайты любой сложности - лендинги, корпоративные сайты, интернет-магазины, сайты СМИ, промо-сайты, блоги, персональные сайты, порталы, системы документооборота, нестандартные веб-решения.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="container mx-auto max-w-[1200px] mt-10 mb-10">
+
+            <div class="second-banner flex items-center justify-center">
+                <div class="second-banner-items rounded-lg shadow-md items-center">
+                    <img src="./img/mylogovers2.png" alt="Company Logo" class="logo">
+                    <button class="py-3 px-5 bg-[#1E0380] text-white"><a class="" href="#popup1">Оставить заявку</a></button>
+                </div>
+            </div>
+
+            <div id="popup1" class="overlay">
+                <div class="popup font-bold text-xl ">
+                    <h2 class="text-center">Оставить заявку</h2>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        <form class="mt-4">
+                            <div class="mb-4">
+                              <label class="block text-sm font-bold mb-2">ФИО</label>
+                              <input type="text" class="w-full px-3 py-2 border rounded" placeholder="Иванов Иван Иванович">
+                            </div>
+                            <div class="mb-4">
+                              <label class="block text-sm font-bold mb-2">Почта</label>
+                              <input type="email" class="w-full px-3 py-2 border rounded" placeholder="example@gmail.com">
+                            </div>
+                            <div class="mb-4">
+                              <label class="block text-sm font-bold mb-2">Номер телефона</label>
+                              <input type="tel" class="w-full px-3 py-2 border rounded" placeholder="+7/8 XXX XXX XX-XX">
+                            </div>
+                            <div class="mb-4">
+                              <label class="block text-sm font-bold mb-2">Сообщение</label>
+                              <textarea class="w-full px-3 py-2 border rounded" placeholder="Ваще сообщение"></textarea>
+                            </div>
+                            <button type="submit" class="bg-[#2B4C9A] text-white py-2 px-4 rounded-lg font-bold hover:bg-[#233a74]">
+                              Отправить
+                            </button>
+                          </form>
+                    </div>
+                </div>
+
+        </section>
+    </main>
+
+    <footer class="bg-[#1E0380] text-white">
+
+        <div class="footer py-10 grid grid-cols-4 container mx-auto max-w-[1200px]">
+
+            <div class="numbers">
+                <p>+7 (831) 410-2009</p>
+                <p>+7 (831) 410-2775</p>
+            </div>
+
+            <div class="addres">
+                <p>Нижний Новгород</p>
+                <p>ул. Зайцева, д.31, офис 923</p>
+            </div>
+
+            <div class="mail">
+                <p>info@softart.ru</p>
+                <p>Telegram: softart_ru</p>
+            </div>
+
+            
+            <div class="mail">
+                <p>Создание сайта © 2003-2024 Интернет-компания СофтАрт</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    
+</body>
+</html>
